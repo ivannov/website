@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+.container-fluid
+  .row-fluid   
+    .span2
+      %ul.nav.nav-list
+        %li.nav-header Using Forge
+        %li 
+          %a{ :href=>'index.html'} Installation
+        %li 
+        %li.nav-header Developing plugins
+        %li 
+          %a{ :href=>'reference-forge-api.html'} Reference the Forge API
+    .span10 
+      ~ content
