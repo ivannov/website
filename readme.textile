@@ -118,7 +118,7 @@ Now that you have awestruct installed, you can preview the website locally by ru
 
 To run the site, you first need the source code. Begin by cloning the website source code from git:
 
-bc. git clone git://github.com/arquillian/arquillian.github.com.git
+bc. git clone git://github.com/forge/website.git
 
 Then, switch to the develop branch (the master branch holds the published site only):
 
@@ -150,7 +150,7 @@ h2. Conventions
 
 * "Textile Reference":http://redcloth.org/textile
 
-Source files are indented using 2 spaces. Haml files require the same indentation size throughout. Ruby hashes should have no leading or trailing spaces and options such be seperated by a comma followed by a space (e.g., @{:href=>"http://arquillian.org", title=>"Arquillian Project Site"}@).
+Source files are indented using 2 spaces. Haml files require the same indentation size throughout. Ruby hashes should have no leading or trailing spaces and options such be seperated by a comma followed by a space (e.g., @{:href=>"http://jboss.org/forge", title=>"Forge Project Site"}@).
 
 Note: In a HAML document, if you use the equals seperator (=) rather than a greater than equals (=>) in a hash key-value assignment, Awestruct will crash.
 
