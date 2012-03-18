@@ -8,17 +8,19 @@
       body {
         padding-top: 60px;
       }
+    %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js' }      
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/styles.css' }
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/bootstrap-responsive.min.css' }
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          %a.brand{ :href=>'/' } JBoss Forge
+          %a.brand{ :href=>'/index.html' } JBoss Forge
           %ul.nav
             %li
-              %a{ :href=>'/' } Home
+              %a{ :href=>'/index.html' } Home
             %li
               %a{ :href=>'/docs/index.html'} Documentation  
     .content
@@ -26,6 +28,4 @@
       %hr
       %footer
         %p &copy; JBoss #{Date.today.year}
-    -# Uncomment script tags (remove leading -#) when you're ready to use behaviors
-    -# %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js' }
     -# %script{ :type=>'text/javascript', :src=>'/javascripts/bootstrap-collapse.js' }

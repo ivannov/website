@@ -1,17 +1,25 @@
 ---
 layout: base
 ---
+:javascript
+  $(function() {
+    var pathname = window.location.pathname.substring(6);
+    console.log(pathname);
+    $("a[href='" + pathname + "']").closest("li").addClass("active");
+  });
+
 
 .container-fluid
   .row-fluid   
     .span2
       %ul.nav.nav-list
         %li.nav-header Using Forge
-        %li 
-          %a{ :href=>'index.html'} Installation
-        %li 
+        - for doc in site.docs_using
+          %li
+            %a{ :href=>doc.url}= doc.title        
         %li.nav-header Developing plugins
-        %li 
-          %a{ :href=>'reference-forge-api.html'} Reference the Forge API
+        - for doc in site.docs_plugin_development
+          %li
+            %a{ :href=>doc.url}= doc.title
     .span10 
       ~ content
