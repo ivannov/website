@@ -2,10 +2,11 @@
 layout: base
 ---
 :javascript
-  $(function() {
-    var pathname = window.location.pathname.substring(6);
+  $(document).ready(function() {
+    var pathname = window.location.pathname;
     console.log(pathname);
-    $("a[href='" + pathname + "']").closest("li").addClass("active");
+    $("body > .navbar a[href='/docs/index.html']").closest("li").addClass("active");
+    $("body > .content ul.nav a[href='" + pathname + "']").closest("li").addClass("active");
   });
 
 
