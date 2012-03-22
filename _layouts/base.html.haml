@@ -2,7 +2,7 @@
 %html
   %head
     %meta{ :charset=>'utf-8' }
-    %title JBoss Forge
+    %title JBoss Forge | #{page.title}
     %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
     :css
       body {
@@ -11,9 +11,16 @@
     %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js' }      
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/styles.css' }
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/bootstrap-responsive.min.css' }
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/prettify.css' }
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
     %script{ :type=>'text/javascript', :src=>'/javascripts/bootstrap.min.js' }
+    %script{ :type=>'text/javascript', :src=>'/javascripts/prettify.js' }
+    :javascript
+      $(document).ready(function() {
+        $("pre.prettyprint code").removeClass("prettyprint").removeClass("linenums");
+        prettyPrint();
+      });
   %body
     .navbar.navbar-fixed-top
       .navbar-inner
