@@ -11,13 +11,15 @@ module Awestruct
           docs = []
 
           site.pages.each do |page|
-            title, href = nil
+            title, href, index = nil
 
             if(page.relative_source_path =~ /^#{@path_prefix}\//)
               page.href = page.relative_source_path
               docs << page
-            end
+            end            
           end
+          
+          docs.sort! {|a,b| a.index <=> b.index}
         
           site.send( "#{@assign_to}=", docs )
         end

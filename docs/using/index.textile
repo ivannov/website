@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Installation
+index: 0
 ---
 h1. Installing Forge
 

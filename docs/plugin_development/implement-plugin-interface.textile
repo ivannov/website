@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Implement the Plugin interface
+index: 1
 ---
 h1. Implement the Plugin interface
 

@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Installing new Plugins
+index: 1
 ---
 h1. Installing new Plugins
 

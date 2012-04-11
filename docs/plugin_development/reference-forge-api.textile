@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Reference Forge API
+index: 0
 ---
 h1. Reference Forge API
 
