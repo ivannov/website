@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Reference Libraries
+index: 9
 ---
 h1. Ensure all referenced libraries are on the CLASSPATH
 

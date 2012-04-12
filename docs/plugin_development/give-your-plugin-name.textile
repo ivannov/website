@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Give your Plugin a name
+index: 3
 ---
 h1. Give your Plugin a name
 

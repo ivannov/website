@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Add Commands to your Plugin
+index: 4
 ---
 h1. Add Commands to your Plugin
 
