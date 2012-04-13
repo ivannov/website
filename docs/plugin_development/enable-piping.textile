@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Enable Piping between Commands
-index: 6
+index: 5
 ---
 h1. Enable Piping between Commands
 
@@ -45,7 +45,7 @@ bc(prettyprint linenums).. @Command("example-command")
 
 p. Take the @grep@ command itself, for example, which supports two methods of invocation: Invocation on one or more @Resource<?>@ objects, or invocation on a piped @InputStream@.
 
-If no piping is invoked (e.g: via standalone execution of the plugin), a piped {{InputStream}} will be null. In addition, piped {{InputStream}}s do not need to be closed; Forge will handle cleanup of these streams.
+div(alert alert-success). If no piping is invoked (e.g: via standalone execution of the plugin), a piped {{InputStream}} will be null. In addition, piped {{InputStream}}s do not need to be closed; Forge will handle cleanup of these streams.
 
 bc(prettyprint linenums).. @Alias("grep")
 @Topic("File & Resources")
