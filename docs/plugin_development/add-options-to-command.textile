@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Add Options to your Commands
-index: 5
+index: 4
 ---
 h1. Add Options to your Commands
 
@@ -35,7 +35,7 @@ bc(command). $ exampleplugin perform --one cat --two dog
 >> option one equals: cat
 >> option two equals: dog
 
-Named parameters can be called in any order. Notice that we could have also called the command with options 'one' and 'two' in reverse order, or by using their short names. These commands are equivalent:
+div(alert alert-success). Named parameters can be called in any order. Notice that we could have also called the command with options 'one' and 'two' in reverse order, or by using their short names. These commands are equivalent:
 bc(command). $ exampleplugin perform --one cat --two dog
 $ exampleplugin perform --two dog --one cat
 $ exampleplugin perform --two dog -o cat
