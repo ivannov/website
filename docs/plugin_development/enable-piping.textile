@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Enable Piping between Commands
-index: 5
+index: 6
 ---
 h1. Enable Piping between Commands
 

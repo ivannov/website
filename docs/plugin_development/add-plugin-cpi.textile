@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Add your Plugin to the Central Plugin Index
-index: 10
+index: 11
 ---
 h1. Add your Plugin to the Central Plugin Index (CPI)
 

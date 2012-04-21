@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Enable modular functionality with Facets
-index: 6
+index: 7
 ---
 h1. Enable modular functionality with Facets
 
