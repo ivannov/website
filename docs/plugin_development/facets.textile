@@ -9,7 +9,14 @@ Frequently when writing plugins, it is not beneficial (sometimes detrimental) to
 
 h2. What is a Facet?
 
-Facets are classes that represent the state of a Project (or a portion thereof.) They serve as encapsulation of several purposes:
+Facets are classes that provide access to the state and resources of the current project (or a portion thereof) and generally useful operations on it's resources. Some information about Facets in short terms:
+
+* Facets represent project state and provide operations (e.g. Git is installed, JSF is installed, access Java source, manipulate pom)
+* Facets do not work outside of projects.
+* Facets avoid doing anything that prints to the shell output (sometimes it is unavoidable)
+* Facets are for encapsulating additional functionality that is usable in one or more plugins
+
+As a practical example the security plugin is implement as a Facet to show the most important design principles.
 
 h3. Constraining Plugins & Commands
 
