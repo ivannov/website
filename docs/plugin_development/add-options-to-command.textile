@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Add Options to your Commands
-index: 4
+index: 5
 ---
 h1. Add Options to your Commands
 

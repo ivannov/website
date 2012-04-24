@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Configure HTTP Proxy
-index: 2
+index: 4
 ---
 h1. Configure HTTP Proxy
 

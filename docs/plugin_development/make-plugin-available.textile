@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Make your Plugin available to Forge
-index: 9
+index: 10
 ---
 h1. Make your Plugin available to Forge
 

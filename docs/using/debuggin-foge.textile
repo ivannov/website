@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Debugging Forge
-index: 3
+index: 5
 ---
 h1. Debugging Forge
 

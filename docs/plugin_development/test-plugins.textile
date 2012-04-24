@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Test your Plugin
-index: 7
+index: 8
 ---
 h1. Test your Plugin
 
