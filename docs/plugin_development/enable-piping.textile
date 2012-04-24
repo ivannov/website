@@ -3,6 +3,7 @@ layout: docs
 title: Enable Piping between Commands
 index: 6
 ---
+
 h1. Enable Piping between Commands
 
 Much like a standard UNIX-style shell, the Forge shell supports piping IO between executables; however in the case of forge, piping actually occurs between plugins, commands, for example:

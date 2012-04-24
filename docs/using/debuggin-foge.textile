@@ -3,6 +3,7 @@ layout: docs
 title: Debugging Forge
 index: 5
 ---
+
 h1. Debugging Forge
 
 h2. Forge logfiles

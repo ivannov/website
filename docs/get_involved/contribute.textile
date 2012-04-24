@@ -3,6 +3,7 @@ layout: docs
 title: Contribute or Get Involved
 index: 0
 ---
+
 h1. Contribute or Get Involved
 
 h2. Build Forge from source

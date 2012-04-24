@@ -3,6 +3,7 @@ layout: docs
 title: Make your Plugin available to Forge
 index: 10
 ---
+
 h1. Make your Plugin available to Forge
 
 div(alert alert-success). After following all of the steps in this section, you should now be ready to install your Plugin into the Forge environment. There are several methods for installing and distributing your plugin; these methods are described below.

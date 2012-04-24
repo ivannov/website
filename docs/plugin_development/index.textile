@@ -3,6 +3,7 @@ layout: docs
 title: Developing a plugin
 index: 0
 ---
+
 h1. Developing a Plugin
 
 Part of Forge's architecture is to allow extensions to be created with extreme ease. This is done using the same programming model that you would use for any CDI or Java EE application, and you should quickly recognize the annotation-driven patterns and practices applied.

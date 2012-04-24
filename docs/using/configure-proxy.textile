@@ -3,6 +3,7 @@ layout: docs
 title: Configure HTTP Proxy
 index: 4
 ---
+
 h1. Configure HTTP Proxy
 
 If you are behind a firewall and require the use of an HTTP Proxy, you must configure several settings in Forge and Maven:

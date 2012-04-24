@@ -3,6 +3,7 @@ layout: docs
 title: Arquillian Testing
 index: 0
 ---
+
 h1. Arquillian Testing
 
 h2. Introduction

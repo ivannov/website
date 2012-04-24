@@ -3,6 +3,7 @@ layout: docs
 title: Enable modular functionality with Facets
 index: 7
 ---
+
 h1. Enable modular functionality with Facets
 
 Frequently when writing plugins, it is not beneficial (sometimes detrimental) to enable all functionality of a plugin at the same time. For instance, let's say you have written a plugin that adds security to an existing web application. Your plugin handles setup of the security dependencies, creation of database tables, and also supports class-configuration of an authentication/authorization provider. It does not make sense for you to create the configuration classes before the dependencies have been installed, because you will likely create compilation errors in the project due to missing APIs. *This might be a good time to use facets.*

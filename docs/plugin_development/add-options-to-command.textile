@@ -3,6 +3,7 @@ layout: docs
 title: Add Options to your Commands
 index: 5
 ---
+
 h1. Add Options to your Commands
 
 Once we have a command or two in our Plugin, it's time to give our users some control over what it does; to do this, we use @@Option@ params; options enable users to pass information of various types into our commands. Options can be named, in which case they are set by passing the @--name@ followed immediately by the value, or if the option is a boolean flag, simply passing the flag will signal a `true` value. Named parameters may be passed into a command in any order, while unnamed parameters must be passed into the command in the order with which they were defined.

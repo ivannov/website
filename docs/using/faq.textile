@@ -3,6 +3,7 @@ layout: docs
 title: FAQ
 index: 98
 ---
+
 h1. FAQ
 
 # "How is forge different from Spring Roo":faq.html#roo

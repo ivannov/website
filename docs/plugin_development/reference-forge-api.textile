@@ -3,6 +3,7 @@ layout: docs
 title: Reference Forge API
 index: 1
 ---
+
 h1. Reference Forge API
 
 Because Forge is based on Maven, the easiest way to get started quickly writing a plugin is to create a new maven Java project. This can be done by hand, or using Forge's built-in plugin project facet.

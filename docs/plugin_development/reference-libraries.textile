@@ -3,6 +3,7 @@ layout: docs
 title: Reference Libraries
 index: 9
 ---
+
 h1. Ensure all referenced libraries are on the CLASSPATH
 
 div(alert alert-info). As of Forge 1.0.0.Beta1, no special action is required to include plugin dependencies. Forge will read your Plugin POM file and create the proper dependency references

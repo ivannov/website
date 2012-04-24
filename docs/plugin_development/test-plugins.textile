@@ -3,6 +3,7 @@ layout: docs
 title: Test your Plugin
 index: 8
 ---
+
 h1. Test your Plugin
 
 When developing plugins, it is recommended to use the provide Unit and Integration Test Harness (based on "Arquillian":http://www.jboss.org/arquillian.) Not only do your plugin's Unit and Integration tests ensure that your plugin will function on your computer, but because tests are run when plugins are _installed_ into a Forge runtime, they also ensure that your plugin will function on your users computers.

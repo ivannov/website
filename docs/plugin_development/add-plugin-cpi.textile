@@ -3,6 +3,7 @@ layout: docs
 title: Add your Plugin to the Central Plugin Index
 index: 11
 ---
+
 h1. Add your Plugin to the Central Plugin Index (CPI)
 
 Forge incorporates the concept of a "plugin market" for conveniently searching and installing available plugins, but in order to take advantage of this, you must first register your plugin in the Central Plugin Index.

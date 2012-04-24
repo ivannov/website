@@ -3,6 +3,7 @@ layout: docs
 title: Samples
 index: 3
 ---
+
 h1. Samples
 
 Want to get started using Forge, but now quite sure how to do the things you want? Check out some of these sample scripts for common use-cases.

@@ -3,6 +3,7 @@ layout: docs
 title: Writing Basic Java EE App
 index: 2
 ---
+
 h1. Writing Basic Java EE Application
 
 For the most part, people interested in Forge are likely interested in creating web-applications. Thusly, this chapter will overview the basic steps to generate such an application using Forge.

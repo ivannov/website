@@ -3,6 +3,7 @@ layout: docs
 title: Give your Plugin a name
 index: 3
 ---
+
 h1. Give your Plugin a name
 
 Each plugin should be given a name. This is done by adding the @@org.jboss.seam.forge.shell.plugins.Alias@ annotation to your plugin class.

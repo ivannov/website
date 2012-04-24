@@ -3,6 +3,7 @@ layout: docs
 title: Seam
 index: 1
 ---
+
 h1. Seam
 
 h2. Introduction
