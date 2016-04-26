@@ -12,8 +12,17 @@ public class User extends AbstractEntity {
 	private byte[] photo;
 	private String bio;
 	private String password;
-	
-	public String getNickname() {
+
+    public User() {
+    }
+
+    public User(String fullname, String email, String password) {
+        this.fullname = fullname;
+        this.email = email;
+        this.password = password;
+    }
+
+    public String getNickname() {
 		return nickname;
 	}
 	public void setNickname(String nickname) {
