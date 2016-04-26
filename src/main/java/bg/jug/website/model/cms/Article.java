@@ -4,8 +4,15 @@ import java.util.Date;
 
 import bg.jug.website.model.user.User;
 
+import javax.persistence.*;
+
+@Entity
 public class Article extends Page {
+
+    @Temporal(TemporalType.DATE)
 	private Date createdDate;
+
+	@ManyToOne
 	private User author;
 
 	public Date getCreatedDate() {

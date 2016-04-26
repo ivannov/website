@@ -1,6 +1,11 @@
 package bg.jug.website.model.user;
 
-public class User {
+import bg.jug.website.model.core.AbstractEntity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class User extends AbstractEntity {
 	private String nickname;
 	private String fullname;
 	private String email;

@@ -6,12 +6,19 @@ import java.util.Set;
 import bg.jug.website.model.core.AbstractEntity;
 import bg.jug.website.model.taxonomy.Tag;
 
+import javax.persistence.Entity;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+
+@Entity
 public class Page extends AbstractEntity {
 	
 	private String title;
 	
 	private String content;
-	
+
+	@ManyToMany
+	@JoinTable(name = "PAGE_TAG")
 	private Set<Tag> tags = new HashSet<>();
 	
 	private boolean published = false;
